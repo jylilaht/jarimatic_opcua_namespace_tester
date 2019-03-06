@@ -10,4 +10,4 @@ App will ask following parameters as input (Empty input will use default):
 - Tag to be read (string type)
 
 - Creator takes no responsibility over anything in this repository
-- If something here makes money creator could use a slice (that poor guy)
+- If something here makes money, by some miracle, creator could use a slice (that poor guy)
