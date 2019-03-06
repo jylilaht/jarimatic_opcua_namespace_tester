@@ -4,7 +4,8 @@ sys.path.insert(0, "..")
 import logging
 from asyncua import Client, Node, ua
 
-logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.ERROR)
 _logger = logging.getLogger('asyncua')
 
 
@@ -30,11 +31,11 @@ async def main():
             print() # make space
 
             # Client has a few methods to get proxy to UA nodes that should always be in address space such as Root or Objects
-            root = client.get_root_node()
-            _logger.info('Objects node is: %r', root)
+            #root = client.get_root_node()
+            #_logger.info('Objects node is: %r', root)
 
             # Node objects have methods to read and write node attributes as well as browse or populate address space
-            _logger.info('Children of root are: %r', await root.get_children())
+            #_logger.info('Children of root are: %r', await root.get_children())
 
             #get namespaces and select one from console
             print()
