@@ -9,8 +9,11 @@ _logger = logging.getLogger('asyncua')
 
 
 async def main():
+    print()
+    print("Jarimatic OPC UA Namespace tester (c) Jari Ylilahti 2019")
 
     #get host address from console
+    print()
     url = "opc.tcp://localhost:4840"                               #default host for testing
     print("Input host address: (for example opc.tcp://localhost:4840)")    
     hostaddr = input(">> " )
